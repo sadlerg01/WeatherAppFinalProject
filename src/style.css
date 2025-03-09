@@ -1,5 +1,10 @@
 body {
   background-color: #f9f7fe;
+  background-image: url(/images/sunsetsky.jpg);
+  background-repeat: no repeat;
+  background-position: center;
+  background-attachment: fixed;
+
   .explora-regular {
     font-family: "Explora", serif;
     font-weight: 400;
@@ -15,7 +20,7 @@ body {
 }
 
 a {
-  color: #885df1;
+  color: #ff9a3c;
 }
 
 .weather-app-box {
@@ -42,7 +47,7 @@ header {
 }
 
 .search-form-button {
-  background-color: #885df1;
+  background-color: #ff9a3c;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -73,7 +78,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: #f65282;
+  color: #00bbf0;
 }
 
 .weather-app-temperature-container {
@@ -118,7 +123,7 @@ main {
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #00bbf0;
   margin-top: 10px;
   display: flex;
   justify-content: center;
